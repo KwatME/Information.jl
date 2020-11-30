@@ -1,11 +1,9 @@
-## Work with information theory
-
 ## Install
 
 ```julia
 using Pkg: add
 
-add(url="https://github.com/kwatme/Information.jl")
+add(url="https://github.com/KwatME/Information.jl")
 ```
 
 ## Use
