@@ -1,3 +1,5 @@
+Module for working with information theory.
+
 ## Install
 
 ```julia
