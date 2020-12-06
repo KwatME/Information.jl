@@ -5,5 +5,6 @@ version = "0.1.0"
 
 [deps]
 BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 Kraft = "b1642761-704a-402e-a6ae-7cc063811e6d"
-Plotly = "58dd65bb-95f3-509e-9936-c39a10fdeae7"
+Plot = "9db1e993-d40e-4a2c-9c84-e29bd56acb85"
