@@ -1,4 +1,6 @@
-include("Type.jl")
+Real_ = Vector{<:Real}
+
+Float_ = Vector{Float64}
 
 function compute_jsd(v_1::Real_, v_2::Real_, v::Real_)::Float_
 

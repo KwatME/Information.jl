@@ -1,4 +1,4 @@
-include("Type.jl")
+Real_ = Vector{<:Real}
 
 function compute_mi(v_1::Real_, v_2::Real_)::Float64
 

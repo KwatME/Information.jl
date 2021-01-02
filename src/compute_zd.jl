@@ -1,4 +1,6 @@
-include("Type.jl")
+Real_ = Vector{<:Real}
+
+Float_ = Vector{Float64}
 
 function compute_zd(v_1::Real_, v_2::Real_)::Float_
 
