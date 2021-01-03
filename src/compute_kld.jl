@@ -1,8 +1,4 @@
-Real_ = Vector{<:Real}
-
-Float_ = Vector{Float64}
-
-function compute_kld(v_1::Real_, v_2::Real_)::Float_
+function compute_kld(v_1::Vector{Float64}, v_2::Vector{Float64})::Vector{Float64}
 
     return v_1 .* log.(v_1 ./ v_2)
 
