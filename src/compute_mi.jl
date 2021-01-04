@@ -1,4 +1,4 @@
-function compute_mi(v_1::Vector{Float64}, v_2::Vector{Float64})::Float64
+function compute_mi(v1::Vector{Float64}, v2::Vector{Float64})::Float64
 
     return
 

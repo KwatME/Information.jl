@@ -1,18 +1,12 @@
-function compute_jsd(v_1::Vector{Float64}, v_2::Vector{Float64}, v::Vector{Float64})::Vector{Float64}
+function compute_jsd(v1::Vector{Float64}, v2::Vector{Float64}, v::Vector{Float64})::Vector{Float64}
 
-    kld_1 = compute_kld(v_1, v)
-
-    kld_2 = compute_kld(v_2, v)
-
-    return kld_1 .- kld_2
+    return compute_kld(v1, v) .- compute_kld(v2, v)
 
 end
 
-function compute_jsd(v_1::Vector{Float64}, v_2::Vector{Float64})::Vector{Float64}
+function compute_jsd(v1::Vector{Float64}, v2::Vector{Float64})::Vector{Float64}
 
-    v = (v_1 .+ v_2) ./ 2
-
-    return compute_jsd(v_1, v_2, v)
+    return compute_jsd(v1, v2, (v1 .+ v2) ./ 2)
 
 end
 
