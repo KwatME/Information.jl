@@ -2,6 +2,10 @@ Module for applying information theory.
 
 ## Install
 
+```sh
+julia
+```
+
 ```julia
 using Pkg: add
 
