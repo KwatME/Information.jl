@@ -3,5 +3,9 @@ uuid = "27e68e20-e3af-48ea-a5d4-c7afd817b96e"
 authors = ["Kwat Medetgul-Ernar <kwat.me@icloud.com>"]
 version = "0.1.0"
 
+[deps]
+KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
+Plotly = "58dd65bb-95f3-509e-9936-c39a10fdeae7"
+
 [compat]
-julia = "1.5"
+julia = "1.6"

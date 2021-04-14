@@ -1,4 +1,4 @@
-Module for applying information theory.
+For applying information theory.
 
 ## Install
 
