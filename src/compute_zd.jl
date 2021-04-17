@@ -1,4 +1,7 @@
-function compute_zd(v1::Vector{Float64}, v2::Vector{Float64})::Vector{Float64}
+function compute_zd(
+    v1::Vector{Float64},
+    v2::Vector{Float64},
+)::Vector{Float64}
 
     kld1 = compute_kld(v1, v2)
 
