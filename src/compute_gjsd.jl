@@ -1,20 +1,20 @@
-function compute_jsd(
+function compute_gjsd(
     v1::Vector{Float64},
     v2::Vector{Float64},
     v::Vector{Float64},
 )::Vector{Float64}
 
-    return compute_kld(v1, v) .- compute_kld(v2, v)
+    return (compute_kld(v1, v) .- compute_kld(v2, v)) ./ 2
 
 end
 
-function compute_jsd(
+function compute_gjsd(
     v1::Vector{Float64},
     v2::Vector{Float64},
 )::Vector{Float64}
 
-    return compute_jsd(v1, v2, (v1 .+ v2) ./ 2)
+    return compute_gjsd(v1, v2, (v1 .+ v2) ./ 2)
 
 end
 
-export compute_jsd
+export compute_gjsd
