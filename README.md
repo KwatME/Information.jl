@@ -1,5 +1,3 @@
-For applying information theory.
-
 ## Install
 
 ```sh
@@ -9,7 +7,7 @@ julia
 ```julia
 using Pkg: add
 
-add(url="https://github.com/KwatME/Information.jl")
+add(; url="https://github.com/KwatME/Information.jl")
 ```
 
 ## Use
