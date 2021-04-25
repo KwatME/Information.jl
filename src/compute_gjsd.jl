@@ -8,10 +8,7 @@ function compute_gjsd(
 
 end
 
-function compute_gjsd(
-    v1::Vector{Float64},
-    v2::Vector{Float64},
-)::Vector{Float64}
+function compute_gjsd(v1::Vector{Float64}, v2::Vector{Float64})::Vector{Float64}
 
     return compute_gjsd(v1, v2, (v1 .+ v2) ./ 2)
 
