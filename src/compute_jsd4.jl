@@ -1,7 +1,4 @@
-function compute_jsd4(
-    v1::Vector{Float64},
-    v2::Vector{Float64},
-)::Vector{Float64}
+function compute_jsd4(v1::Vector{Float64}, v2::Vector{Float64})::Vector{Float64}
 
     return compute_kld(v1, v2) .- compute_kld(v2, v1)
 
